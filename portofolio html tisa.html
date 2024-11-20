@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .section-title {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 1;
+            margin: 10px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Selamat datang di Portofolio Saya</h1>
+        <p>Desainer & Pengembang Web</p>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#skills">Keterampilan</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <div class="section-title">
+                <h2>Tentang Saya</h2>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <p>Halo, nama saya John Doe. Saya seorang desainer dan pengembang web dengan pengalaman lebih dari 5 tahun dalam industri teknologi. Saya sangat bersemangat dalam menciptakan pengalaman pengguna yang menarik dan aplikasi web yang fungsional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="section-title">
+                <h2>Keterampilan</h2>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <h3>HTML & CSS</h3>
+                        <p>Memiliki kemampuan dalam membangun halaman web responsif menggunakan HTML5 dan CSS3.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>JavaScript</h3>
+                        <p>Terampil dalam menggunakan JavaScript untuk interaktivitas di situs web dan aplikasi web.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>React</h3>
+                        <p>Pengalaman dalam membangun aplikasi web dinamis menggunakan React.js.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <div class="section-title">
+                <h2>Pengalaman Kerja</h2>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <h3>Desainer Web - Perusahaan XYZ (2020-2023)</h3>
+                        <p>Memimpin pengembangan desain web dan pengalaman pengguna untuk berbagai proyek perusahaan.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <h3>Pengembang Frontend - Perusahaan ABC (2018-2020)</h3>
+                        <p>Menulis kode dan mengembangkan aplikasi berbasis web dengan HTML, CSS, dan JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="section-title">
+                <h2>Kontak</h2>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <p>Email: john.doe@example.com</p>
+                        <p>Telepon: 0812-3456-7890</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 John Doe | Portofolio Web</p>
+    </footer>
+
+</body>
+</html>
